@@ -51,6 +51,6 @@ int main() {
 
     uint32_t result = div1_instruction(value, 0x10000271);
 
-    printf("value after div1: 0x%08x\n", value);
+    printf("value after div1: 0x%08x\n", result);
     return 0;
 }
